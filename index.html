@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Api</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h2>WEATHER FORECAST</h2>
+  </header>
+
+
+  <div class="search-wrapper">
+    <h2>SEARCH BY A CITY NAME</h2>
+    <form id="searchForm">
+      <input type="search" name="searchTerm" id="searchTerm">
+      <button type="submit">Search</button>
+    </form>
+  </div>
+
+  <div id="result">
+
+    <div class="result">
+
+      <h1>Location Weather Forecast</h1>
+      
+      <div class="result-wrapper">
+        <div id="today">
+          <h2>Today Weather</h2>
+          <div class="today-wrapper">
+            <div class="current">
+              <div class="outlook">
+                <div class="condition">
+                  <img src="" alt="">
+                  <h4></h4>
+                </div>
+                <div class="wind">
+                  <p>Wind: </p>
+                  <p>Precitation: </p>
+                  <p>Pressure: </p>
+                  <h1> C<sup>0</sup></h1>
+                </div>
+
+              </div>
+              
+              <div class="location">
+                <h2>Information</h2>
+                <table>
+                  <tr>
+                    <th>Country</th>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th>Region</th>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th>Lat/Lon</th>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th>Datetime</th>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th>Timezone</th>
+                    <td>sdfsdfsd</td>
+                  </tr>
+                </table>
+  
+              </div>
+            </div>
+
+            <h2>Weather Hourly</h2>
+            <div class="hours-wrapper">
+              <div class="hour">
+                <p>Hour</p>
+                <img src="" alt="">
+                <p> C<sup>0</sup></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
